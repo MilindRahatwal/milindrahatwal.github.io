@@ -1,55 +1,44 @@
-# Data Scientist
+# Data Engineer
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+#### Technical Skills: Python, SQL, MS Azure, DataBricks, GCP
 
 ## Education
-- Ph.D., Physics | The University of Texas at Dallas (_May 2022_)								       		
-- M.S., Physics	| The University of Texas at Dallas (_December 2019_)	 			        		
-- B.S., Physics | The University of Texas at Dallas (_May 2017_)
+- M.S., Applied Computer Science	| St. Francis Xavier Univers (_May 2024_)	 			        		
+- B.S., Computer Engineering | Mumbai University (_May 2019_)
 
 ## Work Experience
-**Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
-- Uncovered and corrected missing step in production data pipeline which impacted over 70% of active accounts
-- Redeveloped loan originations model which resulted in 50% improvement in model performance and saving 1 million dollars in potential losses
+**Data Analyst @ Static.Int Educare (_June 2024 - January 2025_)**
+- Designed and deployed ETL pipelines using Azure Data Factory and Databricks to ingest and transform structured and semi-structured data across multiple business domains.
+- Engineered Power BI dashboards and Excel models to deliver financial and operational KPIs to cross-functional stakeholders.
+- Developed classification models in Python for business risk prediction, improving data-driven decisions by 18%.
 
-**Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
-- Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
-- Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
+**Market Research Analyst @ Sanskritech (_January 2022 - June 2022_)**
+- Conducted analysis of competitor data to guide strategic direction of a new product line; led to a 10% increase in Q1 revenue.
+- Created Excel/Power BI dashboards for internal marketing operations; reduced data request backlog by 25%.
+- Identified and documented operational defects in process pipelines, enabling faster resolution and higher product quality.
 
 ## Projects
-### Data-Driven EEG Band Discovery with Decision Trees
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
+### Uber Data Engineering with GCP
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
+This project dives into the world of Uber data analytics using modern data engineering practices on Google Cloud Platform (GCP). I've leveraged tools like Mage.ai for building an ETL pipeline, BigQuery for data warehousing, Looker Studio for data visualization, and Cloud Storage for managing data throughout the process.
 
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+![Data Model](/assets/data_model.jpeg)
 
-### Decoding Physical and Cognitive Impacts of Particulate Matter Concentrations at Ultra-Fine Scales
-[Publication](https://www.mdpi.com/1424-8220/22/11/4240)
+### Lunar Mission Analysis
+With the rapid progress in space technology, landing humans on the Moon is now within our reach. In our project, we carefully studied all the lunar missions conducted worldwide. We looked at both successful and unsuccessful missions, using two sets of data. One dataset covered lunar missions from all countries, while the other focused specifically on Chaandrayaan (India's lunar missions). This approach allowed us to explore the broader picture of global lunar exploration and also dive into the details of India's exciting ventures to the Moon. By combining these datasets, we gained a clear and easy-to-understand insight into humanity's journey to the lunar surface, celebrating achievements and learning from challenges.
 
-Used **Matlab** to train over 100 machine learning models which estimated particulate matter concentrations based on a suite of over 300 biometric variables. We found biometric variables can be used to accurately estimate particulate matter concentrations at ultra-fine spatial scales with high fidelity (r2 = 0.91) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
+![Lunar Mission Analysis](/assets/lunar.png)
 
-![Bike Study](/assets/img/bike_study.jpeg)
+### Type 2 Diabetes Prediction
 
-## Talks & Lectures
-- Causality: The new science of an old question - GSP Seminar, Fall 2021
-- Guest Lecture: Dimensionality Reduction - Big Data and Machine Learning for Scientific Discovery (PHYS 5336), Spring 2021
-- Guest Lecture: Fourier and Wavelet Transforms - Scientific Computing (PHYS 5315), Fall 2020
-- A Brief Introduction to Optimization - GSP Seminar, Fall 2019
-- Weeks of Welcome Poster Competition - UTD, Fall 2019
-- A Brief Introduction to Networks - GSP Seminar, Spring 2019
+Conducted comprehensive gene expression analysis for the diagnosis of Type 2 Diabetes, employing advanced techniques such as single-cell RNA sequencing (scRNA-seq) to identify differentially expressed genes (DEGs). Mutual Nearest Neighbors (MNN) algorithm to correct technical variations and improve data integration, resulting in the identification of 75 DEGs associated with T2D, highlighting key biomarkers. Utilized the Louvain clustering method and Wilcoxon rank sum tests to enhance the detection of gene clusters and validate novel transcriptomic signatures, contributing to a more precise understanding of molecular mechanisms.
 
-- [Data Science YouTube](https://www.youtube.com/channel/UCa9gErQ9AE5jT2DZLjXBIdA)
+![Mean Score for Genes](/assets/t2d_diabetes_pred.png)
+
+## Certifications
+- Microsoft Ceritified: Azure Data Engineer Associate | [Show Credential](https://learn.microsoft.com/en-us/users/milindrahatwal-2084/credentials/af4a509d7bf10e87?ref=https%3A%2F%2Fwww.linkedin.com%2F)
+- DP-203 Data Engineering on Microsoft Azure | Udemy 
+- Pyhton for Data Science | Cognitive Class | [Show Credential](https://courses.cognitiveclass.ai/certificates/947217277c204fcba84f9753a2bdb8ab) 
 
 ## Publications
-1. Talebi S., Lary D.J., Wijeratne L. OH., and Lary, T. Modeling Autonomic Pupillary Responses from External Stimuli Using Machine Learning (2019). DOI: 10.26717/BJSTR.2019.20.003446
-2. Wijeratne, L.O.; Kiv, D.R.; Aker, A.R.; Talebi, S.; Lary, D.J. Using Machine Learning for the Calibration of Airborne Particulate Sensors. Sensors 2020, 20, 99.
-3. Lary, D.J.; Schaefer, D.; Waczak, J.; Aker, A.; Barbosa, A.; Wijeratne, L.O.H.; Talebi, S.; Fernando, B.; Sadler, J.; Lary, T.; Lary, M.D. Autonomous Learning of New Environments with a Robotic Team Employing Hyper-Spectral Remote Sensing, Comprehensive In-Situ Sensing and Machine Learning. Sensors 2021, 21, 2240. https://doi.org/10.3390/s21062240
-4. Zhang, Y.; Wijeratne, L.O.H.; Talebi, S.; Lary, D.J. Machine Learning for Light Sensor Calibration. Sensors 2021, 21, 6259. https://doi.org/10.3390/s21186259
-5. Talebi, S.; Waczak, J.; Fernando, B.; Sridhar, A.; Lary, D.J. Data-Driven EEG Band Discovery with Decision Trees. Preprints 2022, 2022030145 (doi: 10.20944/preprints202203.0145.v1).
-6. Fernando, B.A.; Sridhar, A.; Talebi, S.; Waczak, J.; Lary, D.J. Unsupervised Blink Detection Using Eye Aspect Ratio Values. Preprints 2022, 2022030200 (doi: 10.20944/preprints202203.0200.v1).
-7. Talebi, S. et al. Decoding Physical and Cognitive Impacts of PM Concentrations at Ultra-fine Scales, 29 March 2022, PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-1499191/v1]
-8. Lary, D.J. et al. (2022). Machine Learning, Big Data, and Spatial Tools: A Combination to Reveal Complex Facts That Impact Environmental Health. In: Faruque, F.S. (eds) Geospatial Technology for Human Well-Being and Health. Springer, Cham. https://doi.org/10.1007/978-3-030-71377-5_12
-9. Wijerante, L.O.H. et al. (2022). Advancement in Airborne Particulate Estimation Using Machine Learning. In: Faruque, F.S. (eds) Geospatial Technology for Human Well-Being and Health. Springer, Cham. https://doi.org/10.1007/978-3-030-71377-5_13
-
-- [Data Science Blog](https://medium.com/@shawhin)
+Milind Rahatwal; Mudra Verma; Manmit Sian; Aakash Yadhav; Nilam Parmar | Location Based Security | International Research Journal of Engineering and Technology (IRJET) | [Show Publication](https://www.irjet.net/archives/V6/i1/IRJET-V6I1275.pdf)
